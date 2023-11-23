@@ -12,7 +12,6 @@ function ChildComponent(props) {
 
 function ParentComponent() {
   const [message, setMessage] = useState('Hola desde el padre')
-
   const handleButtonClick = () => {
     setMessage('Mensaje actualizado desde el padre')
   }
